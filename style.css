@@ -1,0 +1,164 @@
+* {
+  margin: 0px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+nav {
+  background-color: #444655;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+nav .header_left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-size: 1.5rem;
+  padding: 0.5em 1em;
+}
+
+nav .header_right {
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+  font-size: 1rem;
+}
+
+nav .algos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .algos button {
+  font-size: 1rem;
+  margin: 1.2rem 1rem 0 0;
+  padding: 0.3em 0.5rem;
+  background-color: transparent;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+nav .algos button:hover {
+  background-color: #0077ff;
+  cursor: pointer;
+}
+
+nav .algos .butt_locked {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+nav .algos .butt_locked:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+nav .algos .butt_selected {
+  background-color: white;
+  color: #444655;
+}
+
+nav .algos .butt_selected:hover {
+  background-color: #0077ff;
+  cursor: pointer;
+}
+
+nav .algos .butt_unselected:hover {
+  background-color: #0077ff;
+  cursor: pointer;
+}
+
+nav .array-inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-top: 0.5rem;
+}
+
+nav .array-inputs p {
+  padding: 0.5em;
+}
+
+nav .array-inputs #a_size {
+  margin-right: 1.5em;
+}
+
+nav .array-inputs #a_speed {
+  margin-right: 3em;
+}
+
+nav .array-inputs #a_generate {
+  background-color: rgba(0, 119, 255, 0.7);
+  border-radius: 5px;
+  font-size: 0.9rem;
+  padding: 0.5em 1em;
+  margin-left: 12rem;
+  border: none;
+  color: white;
+  text-align: center;
+}
+
+nav .array-inputs #a_generate:hover {
+  cursor: pointer;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section #Info_Cont1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+section #Info_Cont1 h2 {
+  color: #444655;
+}
+
+section #array_container {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 100%;
+  height: 70vh;
+}
+
+section #Info_Cont2 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.hide {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
